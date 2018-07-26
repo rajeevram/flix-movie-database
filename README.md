@@ -4,29 +4,17 @@ Flix is a movies app using the [The Movie Database API](http://docs.themoviedb.a
 
 ## User Stories
 
-The following **required** user stories are complete:
+The following user stories are complete:
 
-- [X] User sees app icon in home screen and styled launch screen (+1pt)
-- [X] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
-- [X] User can "Pull to refresh" the movie list (+2pt)
-- [ ] User sees a loading state while waiting for the movies to load (+2pt)
+- [X] User sees app icon in home screen and styled launch screen
+- [X] User can scroll through a list of movies currently playing in theaters from The Movie DB API
+- [X] User can "Pull to refresh" the movie list
+- [X] User sees a loading state while waiting for the movies to load
+- [ ] User can tap a cell to see a detail view
+- [ ] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView
 
-The following **stretch** user stories are implemented:
 
-- [ ] User sees an alert when there's a networking error (+1pt)
-- [ ] User can search for a movie (+3pt)
-- [ ] While poster is being fetched, user see's a placeholder image (+1pt)
-- [ ] User sees image transition for images coming from network, not when it is loaded from cache (+1pt)
-- [ ] Customize the selection effect of the cell (+1pt)
-- [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete (+2pt)
-
-The following **additional** user stories are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
-
-## Video Walkthrough
-
-Here's a GIF walkthrough of implemented user stories (to-do at some point)
+## Walkthrough
 
 ## Notes
 

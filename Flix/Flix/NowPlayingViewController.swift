@@ -13,6 +13,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     
     // UI, UX Variables
     @IBOutlet weak var movieTableView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     // Backend Variables
     var movies: [[String: Any]] = []
@@ -32,7 +33,9 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         movieTableView.rowHeight = 170
         
         // Make a network request
+        activityIndicator.startAnimating()
         getNowPlayingMovies()
+        activityIndicator.stopAnimating()
     }
     
     // Make a network request to fetch movies
