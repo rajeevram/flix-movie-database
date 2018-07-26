@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class NowPlayingViewController: UIViewController, UITableViewDataSource {
     
@@ -59,6 +60,13 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         
         cell.titleLabel.text = title
         cell.descriptionLabel.text = overview
+        
+        let poster = movie["poster_path"] as! String
+        let baseURL = "https://image.tmdb.org/t/p/w500"
+        let posterURL = URL(string: baseURL + poster)!
+        
+        cell.posterImageView.af_setImage(withURL: posterURL)
+        
         return cell
     }
 
