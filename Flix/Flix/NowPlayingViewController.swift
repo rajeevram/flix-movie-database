@@ -20,6 +20,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         
         movieTableView.dataSource = self as UITableViewDataSource
+        movieTableView.rowHeight = 170
         
         // Making a network request
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US")!
