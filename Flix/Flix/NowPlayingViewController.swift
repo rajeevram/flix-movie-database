@@ -30,7 +30,8 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         
         // Properly source and align table view
         movieTableView.dataSource = self as UITableViewDataSource
-        movieTableView.rowHeight = 170
+        movieTableView.rowHeight = UITableViewAutomaticDimension
+        movieTableView.estimatedRowHeight = 170
         
         // Make a network request
         activityIndicator.startAnimating()
