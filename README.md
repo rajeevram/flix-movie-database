@@ -11,11 +11,11 @@ The following user stories are complete:
 - [X] User can "Pull to refresh" the movie list
 - [X] User sees a loading state while waiting for the movies to load
 - [X] User can tap a cell to see a detail view
-- [ ] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView
-
 
 ## Walkthrough
 
 ## Notes
 
 ## License
+
+    Copyright 2018 Rajeev Ram 
