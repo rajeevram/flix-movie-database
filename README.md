@@ -14,12 +14,14 @@ The following user stories are complete:
 
 ## Walkthrough
 
+<img src='https://imgur.com/SD7D7Iv.gif' title='Flix Walkthrough' width='' alt='TMDb iOS Application' />
+
 ## Notes
 
 The following user stories are to be completed:
 
-- [X] User can change between a table and collection with a tab bar
-- [X] User can table a cell in the collection to see a detail view.
+- [] User can change between a table and collection with a tab bar
+- [] User can table a cell in the collection to see a detail view.
 
 ## License
 
