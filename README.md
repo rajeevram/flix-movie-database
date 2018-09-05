@@ -14,7 +14,7 @@ The following user stories are complete:
 
 ## Walkthrough
 
-<img src='https://imgur.com/SD7D7Iv.gif' title='Flix Walkthrough' width='' alt='TMDb iOS Application' />
+<img src='https://imgur.com/4sUr6z7.gif' title='Flix Walkthrough' width='' alt='TMDb iOS Application' />
 
 ## Notes
 
