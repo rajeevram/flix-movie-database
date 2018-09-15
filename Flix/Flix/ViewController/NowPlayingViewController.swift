@@ -40,9 +40,9 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
             if let movies = movies {
                 self.movies = movies
                 self.movieTableView.reloadData()
+                self.activityIndicator.stopAnimating()
             }
         }
-        activityIndicator.stopAnimating()
     }
     
     // Resend the network request upon pull

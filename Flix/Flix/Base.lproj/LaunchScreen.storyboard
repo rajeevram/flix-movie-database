@@ -18,19 +18,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="90i-0T-rSZ">
-                                <rect key="frame" x="118" y="237" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="90i-0T-rSZ">
+                                <rect key="frame" x="118" y="237" width="138" height="138"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="JBM-9z-vBO"/>
+                                    <constraint firstAttribute="height" constant="138" id="pCb-1w-0H9"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpQ-qn-vwr">
-                                <rect key="frame" x="118" y="384" width="138" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpQ-qn-vwr">
+                                <rect key="frame" x="118" y="383" width="138" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="sAl-9e-xFo"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="138" id="xRV-wR-J29"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dpQ-qn-vwr" firstAttribute="top" secondItem="90i-0T-rSZ" secondAttribute="bottom" constant="8" id="CgT-RI-ZJb"/>
+                            <constraint firstItem="90i-0T-rSZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="UKc-AY-0Sy"/>
+                            <constraint firstItem="dpQ-qn-vwr" firstAttribute="trailing" secondItem="90i-0T-rSZ" secondAttribute="trailing" id="VcF-oU-YO8"/>
+                            <constraint firstItem="dpQ-qn-vwr" firstAttribute="top" secondItem="90i-0T-rSZ" secondAttribute="bottom" constant="8" id="Z5X-PK-BFA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="90i-0T-rSZ" secondAttribute="trailing" constant="118" id="gZr-4E-0Xi"/>
+                            <constraint firstItem="dpQ-qn-vwr" firstAttribute="leading" secondItem="90i-0T-rSZ" secondAttribute="leading" id="ozQ-gG-tIP"/>
+                            <constraint firstItem="90i-0T-rSZ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="t1S-9D-Tsp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dpQ-qn-vwr" secondAttribute="bottom" constant="238" id="zd5-Z0-yJX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
