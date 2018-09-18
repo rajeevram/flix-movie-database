@@ -11,17 +11,18 @@ The following user stories are complete:
 - [X] User can pull to refresh the movie list
 - [X] User sees a loading state while waiting for the movies to load
 - [X] User can tap a cell in the table to see a detail view
+- [X] User can change between a table and collection with a tab bar
+- [X] User can tap a cell in the collection to see a detail view
 
 ## Walkthrough
 
-<img src='https://imgur.com/4sUr6z7.gif' title='Flix Walkthrough' width='' alt='TMDb iOS Application' />
+<img src='https://imgur.com/rWWflZV.gif' title='Flix Walkthrough' width='' alt='TMDb iOS Application' />
 
 ## Notes
 
 The following user stories are to be completed:
 
-- [] User can change between a table and collection with a tab bar
-- [] User can table a cell in the collection to see a detail view.
+- [ ] User can tap a button in the detail view to see a trailer
 
 ## License
 

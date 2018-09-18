@@ -51,6 +51,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
             if let movies = movies {
                 self.movies = movies
                 self.movieTableView.reloadData()
+                refreshControl.endRefreshing()
             }
         }
     }
